@@ -1,16 +1,14 @@
 #include<iostream>
 using namespace std;
-printnumber(int n)
-{if (n<0)
-return;
+void printnumber(int n)
+{if (n<0) return;
 cout<<n<<" ";
 printnumber(n-1);
 }
 int main()
-{
-    int n;
-    cout <<"Enter a number:";
+{  int n;
+    cout<<"Enter a number:";
     cin>>n;
-    printnumber(n);
+     printnumber(n);
     return 0;
 }
