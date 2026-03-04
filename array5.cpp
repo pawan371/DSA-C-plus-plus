@@ -8,3 +8,4 @@ int main(){
     cout<<&arr[0];
     return 0;
 }
+
